@@ -1,0 +1,72 @@
+.n-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .n-center {
+     
+        a {
+            text-decoration: none;
+            color: #000;
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .n-right {
+        button {
+            width: 40px;
+            height: 28px;
+            margin: 8px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+           
+        }
+    }
+
+}
+.hidden {
+    overflow-y: hidden;
+  }
+  
+.mobile{
+    display: none;
+}
+@media (max-width: 760px) {
+    .n-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    
+        .n-center {
+            display: none;
+            a {
+                text-decoration: none;
+                color: #000;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+    
+        .n-right {
+            button {
+                width: 40px;
+                height: 28px;
+                margin: 8px;
+                border-radius: 8px;
+                border: none;
+                cursor: pointer;
+               
+            }
+        }
+        .mobile{
+            display: block;
+            position: relative;
+            right: 0;
+        }
+    
+    }
+}
